@@ -1,6 +1,6 @@
 {
-  "name": "ulbl-vuetify",
-  "version": "0.1.0",
+  "name": "vue-faui-user-fe-sample",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
-    "vue-faui-user-fe": "^0.0.4",
+    "vue-faui-user-fe": "^0.0.13",
     "vue-router": "^3.0.3",
     "vuetify": "^2.0.0"
   },

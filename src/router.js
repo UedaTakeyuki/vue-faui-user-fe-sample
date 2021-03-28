@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+//import {ChangeEmail} from "vue-faui-user-fe"
+import { AccountRoutes } from "vue-faui-user-fe"
 
 Vue.use(Router)
 
@@ -20,6 +22,15 @@ export default new Router({
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+    },
+      // account
+    ...AccountRoutes.routes,
+/*
+    {
+      path: '/changeemail',
+      name: 'changeemail',
+      component: ChangeEmail
     }
+*/
   ]
 })

@@ -10521,10 +10521,10 @@ vue-eslint-parser@^5.0.0:
     esquery "^1.0.1"
     lodash "^4.17.11"
 
-vue-faui-user-fe@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/vue-faui-user-fe/-/vue-faui-user-fe-0.0.4.tgz#d2656e494072eeaee5d3be72c7177e04a6e1e40d"
-  integrity sha512-oX9/jvMflkT2ekYBhSEty6DS5sC/Nn9gFskxzvcTVOyHoqDrmac7XhJSPtRco5WR5uFkVDnljlAHMh0Uc4rLSg==
+vue-faui-user-fe@^0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/vue-faui-user-fe/-/vue-faui-user-fe-0.0.13.tgz#45c79f8e84024e65e2f672490a261d22e0dccb4f"
+  integrity sha512-ggvmkGW2SzQ5ZHW+LfPAxMuguTd3QYQ7EkSELRw1ozjAl8oKiBsKw/rZ6k+TbMpcyhX0jKwLn95d8Wnv2v0ZIA==
   dependencies:
     "@stripe/stripe-js" "^1.8.0"
     "@vuepress/shared-utils" "^1.5.2"
