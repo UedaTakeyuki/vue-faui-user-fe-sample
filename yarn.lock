@@ -8664,6 +8664,17 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
+qrcode-of-this-site@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/qrcode-of-this-site/-/qrcode-of-this-site-1.0.2.tgz#87d88f4396067a6ed052165b3e850e4e823613c3"
+  integrity sha512-Bynq/ubR0lcDdJGy0kdJpq122U41xPA4/JAcTyUR9gnGAtGLQOdbzkre2+0+ucq90J2DXfR/qX7F4vUYlW4+sw==
+  dependencies:
+    core-js "^2.6.5"
+    qrcode "^1.4.4"
+    vue "^2.6.10"
+    vue-router "^3.0.3"
+    vuetify "^2.0.0"
+
 qrcode@^1.4.4:
   version "1.4.4"
   resolved "https://registry.yarnpkg.com/qrcode/-/qrcode-1.4.4.tgz#f0c43568a7e7510a55efc3b88d9602f71963ea83"
