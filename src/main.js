@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import vuetify from './plugins/vuetify';
-import {AccountRoutes} from 'vue-faui-user-fe/'
+//import {AccountRoutes} from 'vue-faui-user-fe/'
 import firebase from 'firebase'
 
 Vue.config.productionTip = false
@@ -30,11 +30,12 @@ var firebaseConfig2 = {
 firebase.initializeApp(firebaseConfig2);
 firebase.analytics();
 */
-firebase.initializeApp(firebaseConfig);
+Vue.prototype.$firebase = firebase.initializeApp(firebaseConfig);
+console.log("Vue.prototype.$firebase", Vue.prototype.$firebase)
 
 new Vue({
   router,
   vuetify,
   render: h => h(App)
 }).$mount('#app')
-AccountRoutes.init()
+//AccountRoutes.init()
