@@ -51,13 +51,15 @@
 
 <script>
 import {QRcode} from 'qrcode-of-this-site'
+import {AccountRoutes, PurchaseRoutes} from 'vue-faui-user-fe/'
 export default {
   components: {QRcode},
   data: () => ({
     drawer: false,
     links: [
       { icon: 'home', text: 'Home', route: '/'},
-      { icon: 'contacts', text: 'About', route: '/about'},
+      AccountRoutes.menuItem,
+      PurchaseRoutes.menuItem,
     ]
   }),
 }

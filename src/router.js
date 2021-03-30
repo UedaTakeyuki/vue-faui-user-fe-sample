@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 //import {ChangeEmail} from "vue-faui-user-fe"
-import { AccountRoutes } from "vue-faui-user-fe"
+import { AccountRoutes, PurchaseRoutes } from "vue-faui-user-fe"
 
 Vue.use(Router)
 
@@ -25,6 +25,7 @@ export default new Router({
     },
       // account
     ...AccountRoutes.routes,
+    ...PurchaseRoutes.routes,
 /*
     {
       path: '/changeemail',
