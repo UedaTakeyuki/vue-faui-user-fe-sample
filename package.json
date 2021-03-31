@@ -11,7 +11,7 @@
     "core-js": "^2.6.5",
     "qrcode-of-this-site": "^1.0.2",
     "vue": "^2.6.10",
-    "vue-faui-user-fe": "^0.0.26",
+    "vue-faui-user-fe": "^0.0.27",
     "vue-router": "^3.0.3",
     "vuetify": "^2.0.0"
   },
