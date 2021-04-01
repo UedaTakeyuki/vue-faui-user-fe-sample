@@ -1,4 +1,4 @@
-# ulbl-vuetify
+# vue-faui-user-fe-sample
 
 ## Project setup
 ```

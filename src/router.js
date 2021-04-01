@@ -1,12 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import ga from 'vue-ga'
 //import {ChangeEmail} from "vue-faui-user-fe"
 import { AccountRoutes, PurchaseRoutes } from "vue-faui-user-fe"
 
 Vue.use(Router)
 
-export default new Router({
+//export default new Router({
+const router =  new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
@@ -35,3 +37,7 @@ export default new Router({
 */
   ]
 })
+
+ga(router, 'UA-43410269-6');
+
+export default router;

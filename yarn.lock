@@ -8663,10 +8663,10 @@ q@^1.1.2:
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
 
-qrcode-of-this-site@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/qrcode-of-this-site/-/qrcode-of-this-site-1.0.2.tgz#87d88f4396067a6ed052165b3e850e4e823613c3"
-  integrity sha512-Bynq/ubR0lcDdJGy0kdJpq122U41xPA4/JAcTyUR9gnGAtGLQOdbzkre2+0+ucq90J2DXfR/qX7F4vUYlW4+sw==
+qrcode-of-this-site@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/qrcode-of-this-site/-/qrcode-of-this-site-1.0.5.tgz#e5024f314089c0988d8bb1aad55e1c5db8973934"
+  integrity sha512-8CFF0wckw4lX90DqxiQu71mg4ERqm9xfC5cFndokR185PB/FfrDuTnM1nmbUm6lUOZkfDzYUsj7UxCpmeaWK/w==
   dependencies:
     core-js "^2.6.5"
     qrcode "^1.4.4"
