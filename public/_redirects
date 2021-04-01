@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+https://vue-faui-user-fe-sample.netlify.com/* https://vue-faui-user-fe-sample.uedasoft.com/:splat 301!
+
+# SPA
+/*    /index.html   200
