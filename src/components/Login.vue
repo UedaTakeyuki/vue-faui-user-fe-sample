@@ -1,6 +1,6 @@
 <template>
   <div>
-  <EmailVerificationRequest/>
+<!--  <EmailVerificationRequest/> -->
   <section id="firebaseui-auth-container"></section>
   </div>
 </template>
@@ -14,7 +14,7 @@ import "firebaseui/dist/firebaseui.css";
 import firebase from "firebase/app";
 import "firebase/auth";
 import * as firebaseui from 'firebaseui';
-import EmailVerificationRequest from '@/components/EmailVerificationRequest.vue'
+//import EmailVerificationRequest from '@/components/EmailVerificationRequest.vue'
 
 import "firebase/firestore";
 //import axios from 'axios';
@@ -22,7 +22,7 @@ import "firebase/firestore";
 export default {
 //  props: ['firebase'],
   components: {
-    EmailVerificationRequest
+//    EmailVerificationRequest
   },
   data: function () {
     return {
