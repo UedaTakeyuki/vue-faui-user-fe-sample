@@ -1,9 +1,6 @@
 <template>
   <div>
   <EmailVerificationRequest/>
-<!--  <EmailVerificationRequest
-    :firebase="firebase"
-  />-->
   <section id="firebaseui-auth-container"></section>
   </div>
 </template>
@@ -49,7 +46,6 @@ export default {
       credentialHelper: firebaseui.auth.CredentialHelper.NONE
     };
     firebase.auth().onAuthStateChanged((user) => {
-//    this.$firebase.auth().onAuthStateChanged((user) => {
       if (user) {
         // set user globals
         this.$isLogin = true;
@@ -57,19 +53,6 @@ export default {
         this.$user_email  = user.email
         this.$user_id     = user.uid
 
-        // set $internalUserId
-/*
-        let db = $firebase.firestore();
-//        let db = this.$firebase.firestore();
-        db.collection("users").doc(user.uid).get().then(docSnapshot =>{
-          if (docSnapshot.exists){
-            this.$internalUserId = docSnapshot.get("id");
-            console.log(this)
-            console.log(docSnapshot.get("id"))
-            console.log(this.$internalUserId)
-          }
-        }).catch(err => alert(err))
-*/
       } else {
         if (!ui) {
           ui = new firebaseui.auth.AuthUI(this.$firebase.auth());
