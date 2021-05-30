@@ -4,6 +4,7 @@ import router from './router'
 import vuetify from './plugins/vuetify';
 //import {AccountRoutes} from 'vue-faui-user-fe/'
 import firebase from 'firebase'
+//import * as firebaseui from 'firebaseui';
 
 Vue.config.productionTip = false
 
@@ -30,8 +31,13 @@ var firebaseConfig2 = {
 firebase.initializeApp(firebaseConfig2);
 firebase.analytics();
 */
-Vue.prototype.$firebase = firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(firebaseConfig);
+Vue.prototype.$firebase = firebase
+Vue.prototype.$firebaseui = firebaseui
+
+console.log("this",this)
 console.log("Vue.prototype.$firebase", Vue.prototype.$firebase)
+console.log("Vue.prototype.$firebaseui", Vue.prototype.$firebaseui)
 
 new Vue({
   router,
