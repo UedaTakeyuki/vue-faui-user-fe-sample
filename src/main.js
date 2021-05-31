@@ -4,7 +4,7 @@ import router from './router'
 import vuetify from './plugins/vuetify';
 //import {AccountRoutes} from 'vue-faui-user-fe/'
 import firebase from 'firebase'
-//import * as firebaseui from 'firebaseui';
+import * as firebaseui from 'firebaseui';
 
 Vue.config.productionTip = false
 
