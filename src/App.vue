@@ -2,7 +2,7 @@
   <v-app>
     <Navbar titleStr="Demo App" :links="links">
     </Navbar>
-    <Login/>
+    <Login ref="login"/>
     <v-content>
       <router-view></router-view>
     </v-content>
