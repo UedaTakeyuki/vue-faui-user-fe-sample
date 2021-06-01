@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import {AccountRoutes, PurchaseRoutes, Login} from 'vue-faui-user-fe'
+import {AccountRoutes/*, PurchaseRoutes */, Login} from 'vue-faui-user-fe'
 import {Navbar} from 'vuetify-nav'
 
 //import Login from '@/components/Login'
@@ -21,7 +21,7 @@ export default {
         links: [
       { icon: 'home', text: 'Home', route: '/'},
       AccountRoutes.menuItem,
-      PurchaseRoutes.menuItem,
+//      PurchaseRoutes.menuItem,
     ]
   }),
   created(){
