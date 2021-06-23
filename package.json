@@ -14,11 +14,11 @@
     "firebaseui": "^4.8.0",
     "qrcode-of-this-site": "^1.0.5",
     "vue": "^2.6.11",
-    "vue-faui-user-fe": "^1.1.4",
+    "vue-faui-user-fe": "^1.1.7",
     "vue-ga": "^1.1.0",
     "vue-router": "^3.1.5",
     "vuetify": "^2.2.14",
-    "vuetify-nav": "^1.0.8"
+    "vuetify-nav": "^1.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.10.0",

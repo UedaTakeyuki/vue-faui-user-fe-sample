@@ -1114,11 +1114,6 @@
     string-width "^2.0.0"
     strip-ansi "^5"
 
-"@stripe/stripe-js@^1.8.0":
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/@stripe/stripe-js/-/stripe-js-1.15.0.tgz#86178cfbe66151910b09b03595e60048ab4c698e"
-  integrity sha512-KQsNPc+uVQkc8dewwz1A6uHOWeU2cWoZyNIbsx5mtmperr5TPxw4u8M20WOa22n6zmIOh/zLdzEe8DYK/0IjBw==
-
 "@types/glob@^7.1.1":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.3.tgz#e6ba80f36b7daad2c685acd9266382e68985c183"
@@ -1872,13 +1867,6 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axios@^0.19.2:
-  version "0.19.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
-  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
-  dependencies:
-    follow-redirects "1.5.10"
-
 babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -1951,11 +1939,6 @@ babel-plugin-polyfill-regenerator@^0.1.2:
   integrity sha512-OUrYG9iKPKz8NxswXbRAdSwF0GhRdIEMTloQATJi4bDuFqrXaXcCUT/VGNrr8pBcjMh1RxZ7Xt9cytVJTJfvMg==
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.1.5"
-
-babel-plugin-transform-remove-console@^6.9.4:
-  version "6.9.4"
-  resolved "https://registry.yarnpkg.com/babel-plugin-transform-remove-console/-/babel-plugin-transform-remove-console-6.9.4.tgz#b980360c067384e24b357a588d807d3c83527780"
-  integrity sha1-uYA2DAZzhOJLNXpYjYB9PINSd4A=
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -3167,13 +3150,6 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@=3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
-
 debug@^3.1.0, debug@^3.1.1, debug@^3.2.6:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
@@ -4268,13 +4244,6 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
-
-follow-redirects@1.5.10:
-  version "1.5.10"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
-  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
-  dependencies:
-    debug "=3.1.0"
 
 follow-redirects@^1.0.0:
   version "1.14.1"
@@ -7978,11 +7947,6 @@ split-string@^3.0.1, split-string@^3.0.2:
   dependencies:
     extend-shallow "^3.0.0"
 
-sprintf-js@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.1.2.tgz#da1765262bf8c0f571749f2ad6c26300207ae673"
-  integrity sha512-VE0SOVEHCk7Qc8ulkWw3ntAzXuqf7S2lvwQaDLRnUeIEaKNQJzV6BwmLKhOqT61aGhfUMrXeaBk+oDGCzvhcug==
-
 sprintf-js@~1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sprintf-js/-/sprintf-js-1.0.3.tgz#04e6926f662895354f3dd015203633b857297e2c"
@@ -8759,18 +8723,10 @@ vue-eslint-parser@^5.0.0:
     esquery "^1.0.1"
     lodash "^4.17.11"
 
-vue-faui-user-fe@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/vue-faui-user-fe/-/vue-faui-user-fe-1.1.4.tgz#70707df15d5c4aa2290e7455f45b985d2278651e"
-  integrity sha512-R1UEIcuWroUx9DFlC32cXV4gNhH7yZhck0FWaSLNvEWe2ZjQ303qxyMBPu2lQuVmXWnRGtO0hPMnfSqmql6eNQ==
-  dependencies:
-    "@stripe/stripe-js" "^1.8.0"
-    axios "^0.19.2"
-    babel-plugin-transform-remove-console "^6.9.4"
-    sprintf-js "^1.1.2"
-    vue "^2.6.11"
-    vue-router "^3.1.5"
-    vuetify "^2.2.14"
+vue-faui-user-fe@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/vue-faui-user-fe/-/vue-faui-user-fe-1.1.7.tgz#d63350db4c7f65a87e9d5d5dc5fa8bbb39662910"
+  integrity sha512-2eLc8LkLd5UfW0rmhfhD8ycVOmE/18jTMG3Sg/NEwbUL4wDXDTZSb/AM8Pz8RPDietxyD2+TWWhqWFn5+l4XeQ==
 
 vue-ga@^1.1.0:
   version "1.1.0"
@@ -8833,15 +8789,12 @@ vuetify-loader@^1.2.2:
     file-loader "^6.2.0"
     loader-utils "^2.0.0"
 
-vuetify-nav@^1.0.8:
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/vuetify-nav/-/vuetify-nav-1.0.8.tgz#04d734511df90443052d582ea6dbe448914fbb1e"
-  integrity sha512-ixFMKdGMt2/krj8fFXS5QAa2la+FglboMonq9EERYaI2lVO3S2vWByYF6s1XVRWS0dSrayFuHt5QfUPyJHP2qg==
+vuetify-nav@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/vuetify-nav/-/vuetify-nav-1.1.2.tgz#aa4b225c5a28899f69ee09463ed9ad60e3d49317"
+  integrity sha512-OyV1PircbJAFhcYMzP5WHlD2IW+X8wJT0P3f1dCqdsvURGIxlNL8Vk5Eti7xHfevp3ysfk2WBrjV0Er1h7IBYQ==
   dependencies:
     qrcode-of-this-site "^1.0.5"
-    vue "^2.6.11"
-    vue-router "^3.1.5"
-    vuetify "^2.2.14"
 
 vuetify@^2.0.0, vuetify@^2.2.14:
   version "2.4.9"

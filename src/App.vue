@@ -12,6 +12,7 @@
 <script>
 import {AccountRoutes/*, PurchaseRoutes */, Login} from 'vue-faui-user-fe'
 import {Navbar} from 'vuetify-nav'
+//import {Navbar} from 'vuetify-nav/src/build-entry.js'
 
 //import Login from '@/components/Login'
 export default {
