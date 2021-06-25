@@ -1,11 +1,12 @@
 <template>
   <div class="home">
     <h1>Homepage</h1>
-    <AccountFront />
+<!--    <AccountFront /> -->
   </div>
 </template>
 
 <script>
+/*
 import { AccountFront } from "vue-faui-user-fe"
 import { AccountRoutes, PurchaseRoutes } from "vue-faui-user-fe"
 export default {
@@ -20,4 +21,5 @@ export default {
     console.log(this)
   }
 };
+*/
 </script>

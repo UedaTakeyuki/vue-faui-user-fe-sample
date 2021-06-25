@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import ga from 'vue-ga'
 //import {ChangeEmail} from "vue-faui-user-fe"
-import { AccountRoutes/*, PurchaseRoutes*/ } from "vue-faui-user-fe"
+import { AccountRoutesCDN/*, PurchaseRoutes*/ } from 'vue-faui-user-fe2/accountCDN'
 
 Vue.use(Router)
 
@@ -26,7 +26,7 @@ const router =  new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
       // account
-    ...AccountRoutes.routes,
+    ...AccountRoutesCDN.routes,
 //    ...PurchaseRoutes.routes,
 /*
     {

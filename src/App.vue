@@ -2,7 +2,7 @@
   <v-app>
     <Navbar titleStr="Demo App" :links="links">
     </Navbar>
-    <Login ref="login"/>
+    <LoginCDN ref="login"/>
     <v-content>
       <router-view></router-view>
     </v-content>
@@ -10,23 +10,24 @@
 </template>
 
 <script>
-import {AccountRoutes/*, PurchaseRoutes */, Login} from 'vue-faui-user-fe'
+import {AccountRoutesCDN/*, PurchaseRoutes , LoginCDN*/} from 'vue-faui-user-fe2/accountCDN'
+import {/*AccountRoutes/*, PurchaseRoutes ,*/ LoginCDN} from 'vue-faui-user-fe2/loginCDN'
 import {Navbar} from 'vuetify-nav'
 //import {Navbar} from 'vuetify-nav/src/build-entry.js'
 
 //import Login from '@/components/Login'
 export default {
   name: 'App',
-  components: { Navbar, Login },
+  components: { Navbar, LoginCDN },
   data: () => ({
         links: [
       { icon: 'home', text: 'Home', route: '/'},
-      AccountRoutes.menuItem,
+      AccountRoutesCDN.menuItem,
 //      PurchaseRoutes.menuItem,
     ]
   }),
   created(){
-    AccountRoutes.init()
+    AccountRoutesCDN.init()
   }
 };
 </script>
