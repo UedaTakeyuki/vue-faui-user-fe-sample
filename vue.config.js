@@ -17,6 +17,7 @@ module.exports = {
       vue: 'Vue',
       vuetify: 'Vuetify',
       'vuetify/lib': 'Vuetify',
+      'vue-router': 'VueRouter',
     })
   }
 }
