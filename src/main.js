@@ -4,7 +4,7 @@ import router from './router'
 import vuetify from './plugins/vuetify';
 import firebase from 'firebase'
 import * as firebaseui from 'firebaseui';
-import {AccountRoutesCDN} from 'vue-faui-user-fe2/accountCDN'
+import {AccountRoutesCDN as AccountRoutes} from 'vue-faui-user-fe2/accountCDN'
 
 Vue.config.productionTip = false
 
@@ -30,7 +30,7 @@ console.log("Vue.prototype.$firebase", Vue.prototype.$firebase)
 console.log("Vue.prototype.$firebaseui", Vue.prototype.$firebaseui)
 
 Vue.mixin({
-  computed: AccountRoutesCDN.init()
+  computed: AccountRoutes.init()
 })
 
 new Vue({
