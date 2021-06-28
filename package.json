@@ -13,7 +13,7 @@
     "firebase": "^8.6.3",
     "firebaseui": "^4.8.0",
     "vue": "^2.6.11",
-    "vue-faui-user-fe2": "^1.0.21",
+    "vue-faui-user-fe2": "^1.1.2",
     "vue-ga": "^1.1.0",
     "vuetify": "^2.2.14",
     "vuetify-nav": "^1.1.3"

@@ -2,12 +2,13 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import vuetify from './plugins/vuetify';
-import firebase from 'firebase'
-import * as firebaseui from 'firebaseui';
-import {AccountRoutesCDN as AccountRoutes} from 'vue-faui-user-fe2/accountCDN'
+//import * as firebaseui from 'firebaseui';
+import initialize from 'vue-faui-user-fe2/initializeCDN'
 
 Vue.config.productionTip = false
 
+initialize.fbinit()
+/*
 const firebaseConfig = {
   apiKey: process.env.VUE_APP_apiKey,
   authDomain: process.env.VUE_APP_authDomain,
@@ -17,10 +18,11 @@ const firebaseConfig = {
   messagingSenderId: process.env.VUE_APP_messagingSenderId,
   appId: process.env.VUE_APP_appId,
 };
+firebase.initializeApp(firebaseConfig);
 /*
-firebase.initializeApp(firebaseConfig2);
 firebase.analytics();
 */
+/*
 firebase.initializeApp(firebaseConfig);
 Vue.prototype.$firebase = firebase
 Vue.prototype.$firebaseui = firebaseui
@@ -28,9 +30,10 @@ Vue.prototype.$firebaseui = firebaseui
 console.log("this",this)
 console.log("Vue.prototype.$firebase", Vue.prototype.$firebase)
 console.log("Vue.prototype.$firebaseui", Vue.prototype.$firebaseui)
-
+*/
 Vue.mixin({
-  computed: AccountRoutes.init()
+  computed: initialize.init()
+//  computed: AccountRoutes.init()
 })
 
 new Vue({
