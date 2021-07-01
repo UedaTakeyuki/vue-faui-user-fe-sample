@@ -4,10 +4,11 @@ import router from './router'
 import vuetify from './plugins/vuetify';
 //import * as firebaseui from 'firebaseui';
 import initialize from 'vue-faui-user-fe2/initializeCDN'
+import fbinit from 'vue-faui-user-fe2/fbinitCDN'
 
 Vue.config.productionTip = false
 
-initialize.fbinit()
+fbinit.fbinit()
 /*
 const firebaseConfig = {
   apiKey: process.env.VUE_APP_apiKey,
@@ -32,7 +33,7 @@ console.log("Vue.prototype.$firebase", Vue.prototype.$firebase)
 console.log("Vue.prototype.$firebaseui", Vue.prototype.$firebaseui)
 */
 Vue.mixin({
-  computed: initialize.init()
+  computed: initialize.accountinit()
 //  computed: AccountRoutes.init()
 })
 
