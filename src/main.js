@@ -3,6 +3,8 @@ import App from './App.vue'
 import router from './router'
 import vuetify from './plugins/vuetify';
 //import * as firebaseui from 'firebaseui';
+
+// vue-faui-user-fe2 from npm
 import initialize from 'vue-faui-user-fe2/initializeCDN'
 import fbinit from 'vue-faui-user-fe2/fbinitCDN'
 

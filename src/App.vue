@@ -10,14 +10,17 @@
 </template>
 
 <script>
+// vue-faui-user-fe2 from CDN
 import {AccountRoutesCDN as AccountRoutes/*, PurchaseRoutes , LoginCDN*/} from 'vue-faui-user-fe2/accountCDN'
 import {/*AccountRoutes/*, PurchaseRoutes ,*/ LoginCDN as Login} from 'vue-faui-user-fe2/loginCDN'
 import {Navbar} from 'vuetify-nav'
 //import {Navbar} from 'vuetify-nav/src/build-entry.js'
-
+//let AccountRoutes = AccountRoutesCDN
+//let Login = LoginCDN
 //import Login from '@/components/Login'
 export default {
   name: 'App',
+//  components: { Navbar, Login },
   components: { Navbar, Login },
   data: () => ({
         links: [

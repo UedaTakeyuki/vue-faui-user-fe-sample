@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import ga from 'vue-ga'
 //import {ChangeEmail} from "vue-faui-user-fe"
+
+// vue-faui-user-fe2 from npm
 import { AccountRoutesCDN/*, PurchaseRoutes*/ } from 'vue-faui-user-fe2/accountCDN'
 
 Vue.use(Router)
