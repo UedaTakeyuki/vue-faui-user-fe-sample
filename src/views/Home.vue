@@ -3,7 +3,7 @@
     <h1>About this</h1>
     <ul>
       <li><b>Sign in</b> can be available by <b>email address</b> with verification.</li>
-      <li>Created account can be <b>changed</b>, <b>deleted</b> at <b>Account</b>.</li>
+      <li>Created account can be <b>changed</b>, <b>deleted</b> at <b>Account</b> page.</li>
       <li>Account page is just a blanck intentionally without login.</li>
       <li>All feature you are seeing here is available with <a href="https://www.npmjs.com/package/vuetify-nav">vuetify-nav</a> and  <a href="https://www.npmjs.com/package/vue-faui-user-fe2">vue-faui-user-fe2
 </a>.</li>
