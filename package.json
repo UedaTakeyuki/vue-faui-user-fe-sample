@@ -16,7 +16,7 @@
     "vue-faui-user-fe2": "^1.2.4",
     "vue-ga": "^1.1.0",
     "vuetify": "^2.2.14",
-    "vuetify-nav": "^1.1.3"
+    "vuetify-nav": "^1.2.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.10.0",
