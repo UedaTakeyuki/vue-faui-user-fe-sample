@@ -5,8 +5,10 @@ import vuetify from './plugins/vuetify';
 //import * as firebaseui from 'firebaseui';
 
 // vue-faui-user-fe2 from npm
-import initialize from 'vue-faui-user-fe2/initializeCDN'
-import fbinit from 'vue-faui-user-fe2/fbinitCDN'
+//import initialize from 'vue-faui-user-fe2/initializeCDN'
+import initialize from 'vue-faui-user-fe2/initialize'
+//import fbinit from 'vue-faui-user-fe2/fbinitCDN'
+import fbinit from 'vue-faui-user-fe2/fbinit'
 
 Vue.config.productionTip = false
 

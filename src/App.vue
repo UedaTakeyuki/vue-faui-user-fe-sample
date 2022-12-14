@@ -11,8 +11,10 @@
 
 <script>
 // vue-faui-user-fe2 from CDN
-import {AccountRoutesCDN as AccountRoutes/*, PurchaseRoutes , LoginCDN*/} from 'vue-faui-user-fe2/accountCDN'
-import {/*AccountRoutes/*, PurchaseRoutes ,*/ LoginCDN as Login} from 'vue-faui-user-fe2/loginCDN'
+//import {AccountRoutesCDN as AccountRoutes/*, PurchaseRoutes , LoginCDN*/} from 'vue-faui-user-fe2/accountCDN'
+import {AccountRoutes as AccountRoutes/*, PurchaseRoutes , LoginCDN*/} from 'vue-faui-user-fe2/account'
+//import {/*AccountRoutes/*, PurchaseRoutes ,*/ LoginCDN as Login} from 'vue-faui-user-fe2/loginCDN'
+import {/*AccountRoutes/*, PurchaseRoutes ,*/ Login as Login} from 'vue-faui-user-fe2/login'
 import {Navbar} from 'vuetify-nav'
 //import {Navbar} from 'vuetify-nav/src/build-entry.js'
 //let AccountRoutes = AccountRoutesCDN

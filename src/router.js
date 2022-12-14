@@ -5,7 +5,8 @@ import ga from 'vue-ga'
 //import {ChangeEmail} from "vue-faui-user-fe"
 
 // vue-faui-user-fe2 from npm
-import { AccountRoutesCDN/*, PurchaseRoutes*/ } from 'vue-faui-user-fe2/accountCDN'
+//import { AccountRoutesCDN/*, PurchaseRoutes*/ } from 'vue-faui-user-fe2/accountCDN'
+import { AccountRoutes/*, PurchaseRoutes*/ } from 'vue-faui-user-fe2/account'
 
 Vue.use(Router)
 
@@ -28,7 +29,8 @@ const router =  new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
     },
       // account
-    ...AccountRoutesCDN.routes,
+//    ...AccountRoutesCDN.routes,
+    ...AccountRoutes.routes,
 //    ...PurchaseRoutes.routes,
 /*
     {
